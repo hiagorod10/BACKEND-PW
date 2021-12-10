@@ -11,7 +11,7 @@
 
   },
   "keywords": [],
-  "author": "Hiago Mendes",
+  "author": "Hiago Mendes e Selton Tavares",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
