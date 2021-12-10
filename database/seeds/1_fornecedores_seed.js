@@ -1,7 +1,7 @@
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex("fornecedores").del()
+  return knex("fornecedores")
     .then(function () {
       // Inserts seed entries
       return knex("fornecedores").insert([
