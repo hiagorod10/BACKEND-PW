@@ -9,7 +9,7 @@ exports.up = function(knex) {
         table.string("imagem");
         table.decimal("preco", 10, 2);
 
-        table.integer("fornecedores_id").references("fornecedores.id");
+        table.integer("fabricantes_id").references("fornecedores.id");
         table.timestamps(true, true)
 
      });

@@ -9,8 +9,13 @@ const findOne = async (req, res) => {
   res.json(fornecedores);
 };
 const create = async (req, res) => {
+
+  console.log("fim");
+
   const fornecedores = await knex("fornecedores").insert(req.body);
   res.json(fornecedores);
+
+
 };
 const update = async function (req, res){
   const fornecedores = await knex("fornecedores")
